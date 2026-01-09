@@ -1,3 +1,6 @@
+## hesim 0.5.8
+Fix CRAN check warnings by updating C++ standard from C++11 to C++17.
+
 ## hesim 0.5.7
 Fix memory access issue identified in piecewise exponential distributions by
 ensuring that the `time` and `rate` vectors are of the same length. Previously,
